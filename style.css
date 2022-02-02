@@ -1,0 +1,50 @@
+.main{
+    position: absolute !important;
+  right: 0px !important;
+    padding: 100px;
+    background-color: #0a0a22;
+    color: #f8f8ff;
+    width: 900px;
+    margin:150px;
+}
+.image{
+    padding-top: 500px;
+
+}
+.pur{
+    color: blueviolet !important;
+}
+.content{
+    font-size: 23px;
+    
+}
+.card-stat{
+    grid-area: stats;
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.card-stat .stat{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+}
+.card-stat .type{
+    font-size: 9px;
+    font-weight: 300;
+}
+.card-stat .value{
+    font-size: 13px;
+    font-weight: 500;
+}
+.txt{
+    background-color: rgba(30, 17, 65, 0.815);
+    height: 258px;
+    padding-top:50px;
+    
+}
